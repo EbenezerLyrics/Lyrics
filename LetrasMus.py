@@ -49,7 +49,7 @@ print(f'Arquivo salvo com sucesso como {file_path}')
 github_repo = 'EbenezerLyrics/Lyrics'
 github_branch = 'main'
 github_directory = 'Hinos'
-github_token = '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'
+github_token = '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'
 
 # URL para upload do arquivo
 upload_url = f'https://api.github.com/repos/{github_repo}/contents/{github_directory}/{file_name}'
