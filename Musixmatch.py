@@ -36,7 +36,7 @@ if response.status_code == 200:
 
         # Configurações para a API do GitHub
         github_api_url = 'https://api.github.com/repos/EbenezerLyrics/Lyrics/contents/Hinos/' + file_name
-        github_token = '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'  # Substitua pelo seu token de acesso
+        github_token = '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'  # Substitua pelo seu token de acesso
 
         # Criar ou atualizar o arquivo no GitHub
         response_github = requests.put(
